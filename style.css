@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.result {
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.result__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
